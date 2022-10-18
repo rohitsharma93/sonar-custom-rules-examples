@@ -26,13 +26,13 @@
     <dependency>
       <groupId>org.sonarsource.sonarqube</groupId>
       <artifactId>sonar-plugin-api</artifactId>
-      <version>${sonar.version}</version>
+      <version>1.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.sonarsource.cobol</groupId>
       <artifactId>sonar-cobol-plugin</artifactId>
-      <version>${sonarcobol.version}</version>
+      <version>1.0-SNAPSHOT</version>
       <scope>system</scope>
       <type>sonar-plugin</type>
       <systemPath>${basedir}/lib/sonar-cobol-plugin-${sonarcobol.version}.jar</systemPath>
